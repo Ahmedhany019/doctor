@@ -41,7 +41,7 @@ function Services({ language }) {
     }
   ]
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: false, amount: 0.3 })
+  const isInView = useInView(ref, { once: false, amount: 0.1 })
   return (
     <section id="services" className="py-16 bg-white">
       <div className="container mx-auto text-center">
