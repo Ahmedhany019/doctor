@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import clinic from "../images/analysis-3707159_640.png"
-import parallex from "../images/doctor-6633763_1920.png"
+import clinic from "../images/analysis-3707159_640.webp"
+import parallex from "../images/doctor-6633763_1920.webp"
 
 function About({ language }) {
   const translate = {
@@ -59,7 +59,7 @@ function About({ language }) {
             <img
               src={clinic}
               alt="About Us"
-              className='w-[80%] max-w-[300px] md:max-w-[400px] mx-auto'
+              className='w-[80%] max-w-[300px] md:max-w-[400px] mx-auto h-auto'
             />
           </motion.div>
         </div>

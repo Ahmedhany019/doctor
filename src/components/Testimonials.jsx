@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import avatar from "../images/avatar-05.png"
 import parallex from "../images/doctor-utilizing-advanced-digital-tablet-600nw-2481904799.webp"
 
 function Testimonials({ language }) {
@@ -18,17 +19,17 @@ function Testimonials({ language }) {
   const testimonials = [
     {
       name: "John Doe",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80",
+      image: avatar,
       review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     },
     {
       name: "Jane Smith",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80",
+      image: avatar,
       review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     },
     {
       name: "Alice Johnson",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80",
+      image: avatar,
       review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     },
     {

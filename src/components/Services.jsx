@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import whiteTeeth from "../images/teeth-2414909_1280.jpg"
-import plantTeeth from "../images/pexels-cottonbro-6529110.jpg"
-import coverTeeth from "../images/pexels-olly-3946834.jpg"
+import whiteTeeth from "../images/teeth-2414909_1280.webp"
+import plantTeeth from "../images/pexels-cottonbro-6529110.webp"
+import coverTeeth from "../images/pexels-olly-3946834.webp"
 
 function Services({ language }) {
   const translate = {
@@ -40,6 +40,7 @@ function Services({ language }) {
         : "زراعة الأسنان توفر حلاً دائمًا للأسنان المفقودة بمظهر طبيعي.",
     }
   ]
+  
   const ref = useRef(null)
   const isInView = useInView(ref, { once: false, amount: 0.1 })
   return (

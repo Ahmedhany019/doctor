@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import hero from "../images/image 4.png"
-import doctor from "../images/image 5.png"
-import spark from "../images/Group 5.png"
+import hero from "../images/image 4.webp"
+import doctor from "../images/image 5.webp"
+import spark from "../images/Group 5.webp"
 import { motion } from 'framer-motion'
 
 function HeroSection({language}) {
@@ -60,7 +60,7 @@ function HeroSection({language}) {
     <img
       src={doctor}
       alt="doctor"
-      className="mx-auto w-[80%] z-[999] md:w-[90%] lg:w-[100%] h-auto w-full"
+      className="mx-auto w-[80%] z-[999] md:w-[90%] lg:w-[100%] h-auto "
     />
     <motion.img
       src={spark}
